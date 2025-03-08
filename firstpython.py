@@ -325,23 +325,23 @@
  in this case if any one case is  true than next statement is not check program
   is done match does not check other case and also it does not break statement
    like C++ without break statement program will check cases"""
-x=int(input("Enter value"))
-match x:
-       case 0:
-            print("x is zero")
-       case 4:
-            print("case is 4")
-       case _:
-            print(x)
+# x=int(input("Enter value"))
+# match x:
+#        case 0:
+#             print("x is zero")
+#        case 4:
+#             print("case is 4")
+#        case _:
+#             print(x)
              # LOOPING STATEMENTS
 # set1={1,2,"hello",4.56,"A",3029}
 # set2={1,2,7,9,5,6}
 # for i in set1:
 #     print(i , end=" ")
 # print(set2)
-# a1=5
-# for i in range(a1):
-#     for j in range (i-1):
-#          print("*",end=" ")
-#     print()
+a1=5
+for i in range(0,a1):
+    for j in range (i-1,i):
+         print("*",end=" ")
+    print()
  
